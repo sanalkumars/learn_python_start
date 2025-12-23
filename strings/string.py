@@ -15,4 +15,4 @@ name ="sanal kumar.s"
 # getting any value from the string based on the given index
 # result = name[0:4]
 result = name[1:]
-print(f"result for the string operation is {result}")
+print(f"result for the string operation is : {result}")
