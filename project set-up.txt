@@ -33,6 +33,9 @@ Activate the environment to install packages locally.
 - **Windows (PowerShell)**:
   ```powershell
   venv\Scripts\Activate.ps1
+
+  if the execution is blocked the u can activate it temporarily by the follow command 
+  "Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass"
   ```
 
 - **macOS / Linux**:
@@ -144,3 +147,16 @@ project/
 - **Version Control**: Add `venv/` to your `.gitignore` file to avoid committing the virtual environment.
 
 Happy coding! 🚀
+
+
+
+Steps for working on the first server , 
+
+1 : = in terminal use the below command for giving permision to activate the virtual Environment
+  "Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass"
+
+2 : = Activate the V-ENV 
+
+3 : = cd to the first-server folder then run the below command 
+      uvicorn main:app --reload  ( this will start the server)
+
