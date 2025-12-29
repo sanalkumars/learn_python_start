@@ -1,6 +1,9 @@
 from fastapi import FastAPI
+from main_routes.route import router
 
 app = FastAPI()
+
+app.include_router(router)
 
 @app.get("/")
 def greet():
